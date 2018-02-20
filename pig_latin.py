@@ -7,7 +7,7 @@ if len(original) > 0 and original.isalpha():
 
 	if first_letter == 'a' or first_letter == 'e' or first_letter == 'i' or first_letter == 'o' or first_letter == 'u':
 		pig_word = word + 'way'
-	elif second_letter != 'a' and first_letter != 'e' and first_letter != 'i' and first_letter != 'o' and first_letter != 'u':
+	elif second_letter != 'a' and second_letter != 'e' and second_letter != 'i' and second_letter != 'o' and second_letter != 'u':
 		pig_word = word[2:] + first_letter + second_letter + 'ay'
 	else:
 		pig_word = word[1:] + first_letter + 'ay'
