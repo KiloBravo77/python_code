@@ -14,4 +14,4 @@ if len(original) > 0 and original.isalpha():
 
 	print(pig_word)
 else:
-	print("That ain't a work you dummy!")
+	print("That ain't a word you dummy!")
