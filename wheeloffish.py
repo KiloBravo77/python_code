@@ -8,7 +8,7 @@ def wheeloffish():
 	if answer == "box":
 		print("YOU TOOK THE BOX! WHAT'S IN THE BOX???")
 		print("..........")
-		print("NOTHING! STUPID")
+		print("NOTHING! STUPID!! YOU SO STUPID!!!!")
 	else:
 		print("Excellent choice")
 
