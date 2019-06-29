@@ -1,5 +1,5 @@
 print("Pig Latin Converter")
-original = raw_input("Enter a word: ")
+original = input("Enter a word: ")
 
 if len(original) > 0 and original.isalpha():
 	word = original.lower()
